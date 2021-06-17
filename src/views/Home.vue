@@ -87,6 +87,40 @@
                     
                     <div class=" p-5">
                           <p class="font-bold text-xl font-source">My Interest :</p>
+                          <div class="grid grid-cols-4 gap-2 mt-2">
+                               <div class="text-center per-interest">
+                                <fa icon="laptop-code" class="text-2xl" />
+                                <p class="text-xs mt-1">Coding</p>
+                              </div>
+                              <div class="text-center per-interest">
+                                <fa icon="film" class="text-2xl" />
+                                <p class="text-xs mt-1">Movie</p>
+                              </div>
+                                <div class="text-center per-interest">
+                                <fa :icon="['far', 'futbol']" class="text-2xl" />
+                                <p class="text-xs mt-1">Football</p>
+                              </div>
+                              <div class="text-center per-interest">
+                                <fa icon="music" class="text-2xl" />
+                                <p class="text-xs mt-1">Music</p>
+                              </div>
+                              <div class="text-center per-interest">
+                                <fa icon="money-bill-wave" class="text-2xl" />
+                                <p class="text-xs mt-1">Money</p>
+                              </div>
+                              <div class="text-center per-interest">
+                                <fa icon="plane" class="text-2xl" />
+                                <p class="text-xs mt-1">Travel</p>
+                              </div>
+                              <div class="text-center per-interest">
+                                <fa icon="utensils" class="text-2xl" />
+                                <p class="text-xs mt-1">Eat</p>
+                              </div>
+                              <div class="text-center per-interest">
+                                <fa icon="gamepad" class="text-2xl" />
+                                <p class="text-xs mt-1">Gaming</p>
+                              </div>
+                          </div>
 
                     </div>
                 </div>
