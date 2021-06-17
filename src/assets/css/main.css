@@ -20,9 +20,9 @@
 .rai-img {
     border: 5px solid #fff;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin-top: -150px;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
 }
 
 .icon-hero>p {
@@ -63,4 +63,20 @@
   60% {
     transform: translateY(-15px);
   }
+}
+
+@media (min-width: 768px) {
+  .rai-img {
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+}
+}
+
+@media (min-width: 1440px) {
+  .rai-img {
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+}
 }
