@@ -4,8 +4,8 @@
 
         <div class="text-center p-5 bg-gray-900 bg-opacity-80 rounded-md">
            <img src="/src/assets/rai.png" class="rai-img mx-auto" alt="">
-            <p class="font-bold mt-10 text-3xl text-gray-800 bg-white p-2 rounded-md">Muhammad Hendra Nailul Haqq</p>
-            <p class="text-2xl mt-1  font-source">Front End Developer</p>
+            <p class="font-bold mt-10 text-xl 2xl:text-3xl text-gray-800 bg-white p-2 rounded-md">Muhammad Hendra Nailul Haqq</p>
+            <p class="text-lg 2xl:text-2xl mt-1  font-source">Front End Developer</p>
             <div class="grid grid-cols-3 mt-10 w-3/4 mx-auto">
             <a href="" class="text-center icon-hero">
                 <fa :icon="['fab', 'gitlab']" class="text-4xl " />
