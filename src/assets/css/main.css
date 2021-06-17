@@ -18,7 +18,7 @@
 }
 
 .rai-img {
-    border: 5px solid #fff;
+    border: 5px solid rgba(16, 185, 129);
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -64,6 +64,11 @@
     transform: translateY(-15px);
   }
 }
+.per-interest {
+  padding: .5rem;
+  background-color:rgba(0, 0, 0, 0.2);
+  border-radius: 5px
+}
 
 @media (min-width: 768px) {
   .rai-img {
@@ -79,4 +84,9 @@
     height: 300px;
     margin-top: -150px;
 }
+.per-interest {
+  padding: 1rem;
+  
+}
+
 }
