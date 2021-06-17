@@ -51,12 +51,42 @@
                     <span class="font-bold  text-green-500 "> About Me</span>
                 </div>
 
-                <div class="grid grid-cols-2">
-                    <div class="p-5">
+                <div class="text-center p-10">
+                    
+                            <span class="text-green-500 font-medium">Hi, my name is Hendra,</span>
+                            <span class="font-source">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore quibusdam, magni ullam rem praesentium quod accusantium quo iure laboriosam, numquam minima eius! Adipisci, est ipsa? Minima quidem atque maiores?
+                            </span>
+                        
+                </div>
 
+                <div class="grid grid-cols-2">
+                    <div class="p-5 ">
+                         <p class="font-bold text-xl font-source">Detail :</p>
+                         <div class="text-sm grid grid-cols-5">
+                        <div>
+                           
+                       <p class="mt-5 text-green-500 font-bold">Name :</p>
+                       <p class="mt-5 text-green-500 font-bold">Address :</p>
+                           <p class="mt-5 text-green-500 font-bold">DOB :</p>
+                             <p class="mt-5 text-green-500 font-bold">Phone :</p>
+                               <p class="mt-5 text-green-500 font-bold">Email :</p>
+                        </div>
+                        <div class="col-span-4">
+                            <p class="mt-5">Muhammad Hendra Nailul Haqq</p>
+                             <p class="mt-5">Solo, Indonesia</p>
+                              <p class="mt-5">November 24, 1997</p>
+                               <p class="mt-5">+62 858 0020 0292</p>
+                                <p class="mt-5">hendrahaqq@gmail.com</p>
+                                
+                        </div>
+                       
 
                     </div>
+                    </div>
+                    
                     <div class=" p-5">
+                          <p class="font-bold text-xl font-source">My Interest :</p>
 
                     </div>
                 </div>
