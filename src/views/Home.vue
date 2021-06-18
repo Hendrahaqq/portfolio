@@ -31,12 +31,12 @@
             </div>
         </div>
     </div>
-    <div id="about" class="bg-gray-800 w-full p-10 ">
-        <div class=" bg-gray-700 shadow-2xl p-10 md:w-3/4 mx-auto mt-5">
+    <div id="about" class="bg-gray-800 w-full p-2 md:p-10 ">
+        <div class=" bg-gray-700 shadow-2xl p-3 md:p-10 md:w-3/4 mx-auto mt-5">
             <div class="border-4 border-white relative 2xl:p-20 min-h-screen">
-                <div class="bg-gray-700 flex items-center absolute -top-7 left-2 p-2">
-                    <fa icon="info-circle" class="text-4xl mr-2" />
-                    <span class="font-bold  text-green-500 2xl:text-2xl"> About Me</span>
+                <div class="bg-gray-700 flex items-center absolute -top-4 md:-top-7 left-2 p-1 md:p-2">
+                    <fa icon="info-circle" class="text-xl md:text-4xl mr-2" />
+                    <span class="font-bold  text-green-500 text-sm md:text-lg 2xl:text-2xl"> About Me</span>
                 </div>
 
                 <div class="text-center p-10 2xl:text-2xl">
@@ -47,29 +47,29 @@
 
                     </span>
                 </div>
-                <div class="grid grid-cols-2 2xl:mt-5">
+                <div class="md:grid md:grid-cols-2 2xl:mt-5">
                     <div class="p-5">
-                        <p class="font-bold text-xl 2xl:text-3xl font-source">Detail :</p>
-                        <div class="text-sm grid grid-cols-5">
-                            <div>
-                                <p class="mt-5 2xl:text-xl text-green-500 font-bold">Name :</p>
-                                <p class="mt-5 2xl:text-xl text-green-500 font-bold">Address :</p>
-                                <p class="mt-5 2xl:text-xl text-green-500 font-bold">DOB :</p>
-                                <p class="mt-5 2xl:text-xl text-green-500 font-bold">Phone :</p>
-                                <p class="mt-5 2xl:text-xl text-green-500 font-bold">Email :</p>
+                        <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">Detail :</p>
+                        <div class="text-sm grid grid-cols-7 md:grid-cols-5">
+                            <div class="col-span-2 md:col-span-1">
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Name :</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Address :</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">DOB :</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Phone :</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Email :</p>
                             </div>
-                            <div class="col-span-4">
-                                <p class="mt-5 2xl:text-xl">Muhammad Hendra Nailul Haqq</p>
-                                <p class="mt-5 2xl:text-xl">Solo, Indonesia</p>
-                                <p class="mt-5 2xl:text-xl">November 24, 1997</p>
-                                <p class="mt-5 2xl:text-xl">+62 858 0020 0292</p>
-                                <p class="mt-5 2xl:text-xl">hendrahaqq@gmail.com</p>
+                            <div class="col-span-5 md:col-span-4">
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl">Muhammad Hendra Nailul Haqq</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl">Solo, Indonesia</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl">November 24, 1997</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl">+62 858 0020 0292</p>
+                                <p class="mt-5 text-xs md:text-md  2xl:text-xl">hendrahaqq@gmail.com</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="p-5">
-                        <p class="font-bold text-xl 2xl:text-3xl font-source">My Interest :</p>
+                        <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">My Interest :</p>
                         <div class="grid grid-cols-4 gap-2 mt-5">
                             <div class="text-center per-interest">
                                 <fa icon="laptop-code" class="text-2xl 2xl:text-4xl" />
@@ -107,24 +107,24 @@
 
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-     <div id="skill" class="bg-gray-800 w-full p-10 ">
-        <div  class="bg-gray-900 shadow-2xl p-10 md:w-3/4 mx-auto mt-5">
-      
-            <div class="border-4 border-white relative 2xl:p-20 min-h-screen">
-                  <div class="bg-gray-900 flex items-center absolute -top-7 right-2 p-2">
-                    <fa icon="cog" class="text-4xl mr-2" />
-                    <span class="font-bold  text-green-500 2xl:text-2xl"> Skill</span>
+                <div class="p-5">
+                  <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">Education :</p>
+                  <div class="py-5">
+                      <p class="text-lg  font-bold">2020, Computer Science</p>
+                      <p class="italic">Universitas Sebelas Maret</p>
+                      <p class="text-sm">GPA 3.45</p>
+                  </div>
+
                 </div>
+                 <div class="p-5">
+                        <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">Skill :</p>
                 <div class="md:grid md:grid-cols-2 2xl:mt-5 gap-5">
                     <div class="mt-5"> 
                         <div class="flex justify-between">
-                            <span>
+                            <span class="text-sm md:text-md">
                             HTML & CSS
                             </span>
-                            <span>
+                            <span class="text-sm md:text-md">
                                 90%
                             </span>
                         </div>
@@ -137,10 +137,10 @@
                     </div>
                     <div class="mt-5"> 
                         <div class="flex justify-between">
-                        <span>
+                        <span class="text-sm md:text-md">
                            Javascript
                         </span>
-                        <span>
+                        <span class="text-sm md:text-md">
                             80%
                         </span>
                         </div>
@@ -152,10 +152,10 @@
                     </div>
                     <div class="mt-5"> 
                         <div class="flex justify-between">
-                        <span>
+                        <span class="text-sm md:text-md">
                             Vue.Js
                         </span>
-                        <span>
+                        <span class="text-sm md:text-md">
                             85%
                         </span>
                         </div>
@@ -167,10 +167,10 @@
                     </div>
                     <div class="mt-5"> 
                         <div class="flex justify-between">
-                        <span>
+                        <span class="text-sm md:text-md">
                             PHP
                         </span>
-                        <span>
+                        <span class="text-sm md:text-md">
                             70%
                         </span>
                         </div>
@@ -182,10 +182,10 @@
                     </div>
                     <div class="mt-5">
                         <div class="flex justify-between"> 
-                        <span>
+                        <span class="text-sm md:text-md">
                             Golang
                         </span>
-                        <span>
+                        <span class="text-sm md:text-md">
                             70%
                         </span>
                         </div>
@@ -197,10 +197,10 @@
                     </div>
                     <div class="mt-5"> 
                         <div class="flex justify-between">
-                        <span>
+                        <span class="text-sm md:text-md">
                             UI & UX
                         </span>
-                        <span>
+                        <span class="text-sm md:text-md">
                             80%
                         </span>
                         </div>
@@ -211,6 +211,19 @@
                         </div>
                     </div>
                 </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+     <div id="skill" class="bg-gray-800 w-full p-10 ">
+        <div  class="bg-gray-900 shadow-2xl p-10 md:w-3/4 mx-auto mt-5">
+      
+            <div class="border-4 border-white relative 2xl:p-20 min-h-screen">
+                  <div class="bg-gray-900 flex items-center absolute -top-7 right-2 p-2">
+                    <fa icon="cog" class="text-4xl mr-2" />
+                    <span class="font-bold  text-green-500 2xl:text-2xl"> Experience</span>
+                </div>
+                
             </div>
        
             
