@@ -17,11 +17,11 @@
           About
         </a>
         <a href="#skill" class="no-underline block mt-4 sm:inline-block sm:mt-0 font-medium hover:text-green-500 text-white mx-5" v-smooth-scroll>
-          Skill
+          Experience
         </a>
-        <a href="#work" class="no-underline block mt-4 sm:inline-block sm:mt-0 font-medium hover:text-green-500 text-white mx-5" v-smooth-scroll>
+        <!-- <a href="#work" class="no-underline block mt-4 sm:inline-block sm:mt-0 font-medium hover:text-green-500 text-white mx-5" v-smooth-scroll>
           Work
-        </a>
+        </a> -->
       </div>
     </div>
   </nav>
