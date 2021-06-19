@@ -8,16 +8,17 @@
                     Hendra
                     Nailul Haqq</p>
                 <p class="text-lg 2xl:text-2xl mt-1 text  font-source">Web Developer</p>
+                <!-- <p class="text-sm 2xl:text-xl mt-3">Job Status : <span class="px-2 bg-white rounded-md text-md text-gray-900"> Available</span> </p> -->
                 <div class="grid grid-cols-3 mt-10 w-3/4 mx-auto">
-                    <a href="" class="text-center icon-hero">
+                    <a href="https://gitlab.com/hendrahaqq" class="text-center icon-hero">
                         <fa :icon="['fab', 'gitlab']" class="text-4xl " />
                         <p>Git</p>
                     </a>
-                    <a href="" class="text-center icon-hero ">
+                    <a href="mailto:hendrahaqq@gmail.com" class="text-center icon-hero ">
                         <fa icon="envelope-open-text" class="text-4xl" />
                         <p>Email</p>
                     </a>
-                    <a href="" class="text-center icon-hero">
+                    <a href="https://www.linkedin.com/in/muhammad-hendra-nailul-haqq-9aa121104/" class="text-center icon-hero">
                         <fa :icon="['fab','linkedin-in']" class="text-4xl " />
                         <p>LinkedIn</p>
                     </a>
@@ -73,38 +74,12 @@
                     <div class="p-5">
                         <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">My Interest :</p>
                         <div class="grid grid-cols-4 gap-2 mt-5">
-                            <div class="text-center per-interest">
-                                <fa icon="laptop-code" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Coding</p>
+                        
+                            <div v-for="(interest, i) in interests" :key="i" class="text-center per-interest">
+                                <fa :icon="[interest.type, interest.icon]" class="text-2xl 2xl:text-4xl" />
+                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">{{interest.name}}</p>
                             </div>
-                            <div class="text-center per-interest">
-                                <fa icon="film" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Movie</p>
-                            </div>
-                            <div class="text-center per-interest">
-                                <fa :icon="['far', 'futbol']" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Football</p>
-                            </div>
-                            <div class="text-center per-interest">
-                                <fa icon="music" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Music</p>
-                            </div>
-                            <div class="text-center per-interest">
-                                <fa icon="money-bill-wave" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Money</p>
-                            </div>
-                            <div class="text-center per-interest">
-                                <fa icon="plane" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Travel</p>
-                            </div>
-                            <div class="text-center per-interest">
-                                <fa icon="utensils" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Eat</p>
-                            </div>
-                            <div class="text-center per-interest">
-                                <fa icon="gamepad" class="text-2xl 2xl:text-4xl" />
-                                <p class="text-xs 2xl:text-sm 2xl:mt-2 mt-1">Gaming</p>
-                            </div>
+                           
                         </div>
 
                     </div>
@@ -112,113 +87,28 @@
                 <div class="p-5">
                     <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">Education :</p>
                     <div class="py-5">
-                        <p class="text-lg  font-bold">2020, Computer Science</p>
-                        <p class="italic">Universitas Sebelas Maret</p>
-                        <p class="text-sm">GPA 3.45</p>
+                        <p class="text-lg 2xl:text-2xl  font-bold">2020, Computer Science</p>
+                        <p class="italic 2xl:text-xl">Universitas Sebelas Maret</p>
+                        <p class="text-sm 2xl:text-lg">GPA 3.45</p>
                     </div>
 
                 </div>
                 <div class="p-5">
                     <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">Skill :</p>
                     <div class="md:grid md:grid-cols-2 2xl:mt-5 gap-5">
-                        <div class="mt-5">
+                        <div v-for="(skill, i) in skills" :key="i" class="mt-5">
                             <div class="flex justify-between">
-                                <span class="text-sm md:text-md">
-                                    HTML & CSS
+                                <span class="text-sm md:text-md 2xl:text-xl">
+                                   {{skill.name}}
                                 </span>
-                                <span class="text-sm md:text-md">
-                                    90%
+                                <span class="text-sm md:text-md  2xl:text-xl">
+                                   {{skill.percentage}}
                                 </span>
                             </div>
 
                             <div class="relative pt-1">
                                 <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
-                                    <div style="width:90%"
-                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="flex justify-between">
-                                <span class="text-sm md:text-md">
-                                    Javascript
-                                </span>
-                                <span class="text-sm md:text-md">
-                                    80%
-                                </span>
-                            </div>
-                            <div class="relative pt-1">
-                                <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
-                                    <div style="width:80%"
-                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="flex justify-between">
-                                <span class="text-sm md:text-md">
-                                    Vue.Js
-                                </span>
-                                <span class="text-sm md:text-md">
-                                    85%
-                                </span>
-                            </div>
-                            <div class="relative pt-1">
-                                <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
-                                    <div style="width:85%"
-                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="flex justify-between">
-                                <span class="text-sm md:text-md">
-                                    PHP
-                                </span>
-                                <span class="text-sm md:text-md">
-                                    70%
-                                </span>
-                            </div>
-                            <div class="relative pt-1">
-                                <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
-                                    <div style="width:70%"
-                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="flex justify-between">
-                                <span class="text-sm md:text-md">
-                                    Golang
-                                </span>
-                                <span class="text-sm md:text-md">
-                                    70%
-                                </span>
-                            </div>
-                            <div class="relative pt-1">
-                                <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
-                                    <div style="width:70%"
-                                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="flex justify-between">
-                                <span class="text-sm md:text-md">
-                                    UI & UX
-                                </span>
-                                <span class="text-sm md:text-md">
-                                    80%
-                                </span>
-                            </div>
-                            <div class="relative pt-1">
-                                <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-green-200">
-                                    <div style="width:80%"
+                                    <div :style=" 'width:' + skill.percentage"
                                         class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500">
                                     </div>
                                 </div>
@@ -243,7 +133,7 @@
                             ></div>
                         <!-- right timeline -->
                         <div class="mb-8 flex items-center w-full right-timeline">
-                            <div class="order-1 w-1/12 text-xs text-center">
+                            <div class="order-1 w-1/12 text-xs text-center 2xl:text-lg">
                             <p>Jan 2018 </p> 
                             <p>|</p>
                             <p>Feb 2018</p> 
@@ -253,13 +143,13 @@
                                 <h1 class="mx-auto font-semibold text-lg text-white">O</h1>
                             </div>
                             <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 w-10/12 px-6 py-4">
-                                <p class=" font-bold text-gray-800 text-xl">Intern Software Developer</p>
-                                <p class="italic mb-3">Skynosoft Portal Prime</p>
-                                <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Developed a SMS Gateway and modified existing Administrator System for Patient registration at Amal Sehat Hospital using HTML/CSS, GAMMU, Javascript, PHP, CodeIgniter, and MySQL, also responsible from requirement gathering until User Acceptance Testing (UAT) and delivering final product.</p>
+                                <p class=" font-bold text-gray-800 text-xl 2xl:text-2xl">Intern Software Developer</p>
+                                <p class="italic mb-3 2xl:text-xl">Skynosoft Portal Prime</p>
+                                <p class="text-sm 2xl:text-xl leading-snug tracking-wide text-gray-900 text-opacity-100">Developed a SMS Gateway and modified existing Administrator System for Patient registration at Amal Sehat Hospital using HTML/CSS, GAMMU, Javascript, PHP, CodeIgniter, and MySQL, also responsible from requirement gathering until User Acceptance Testing (UAT) and delivering final product.</p>
                             </div>
                         </div>
                         <div class="mb-8 flex items-center w-full right-timeline">
-                            <div class="order-1 w-1/12 text-xs text-center">
+                            <div class="order-1 w-1/12 text-xs text-center 2xl:text-lg">
                             <p>June 2020 </p> 
                             <p>|</p>
                             <p>Now</p> 
@@ -269,12 +159,12 @@
                                 <h1 class="mx-auto font-semibold text-lg text-white">O</h1>
                             </div>
                             <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 w-10/12 px-6 py-4">
-                                <p class=" font-bold text-gray-800 text-xl">Web Developer</p>
-                                <p class="italic mb-3">PT. Solusi Desain Bangsa</p>
+                                <p class=" font-bold text-gray-800 text-xl 2xl:text-2xl">Web Developer</p>
+                                <p class="italic mb-3 2xl:text-xl">PT. Solusi Desain Bangsa</p>
                                 <ul class="list-disc ">
                                     <li class="ml-5 text-gray-800 ">
-                                       <span class="text-gray-900 font-medium"> Sekolah Desain Web Platform </span>
-                                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                                       <span class="text-gray-900 font-medium 2xl:text-xl"> Sekolah Desain Web Platform </span>
+                                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 2xl:text-xl">
                                             Developed and maintain sekolahdesain.id ecosystem as edutech company, including promotional, user, mentor, and administrator web app using Vue.JS as front-end framework and Golang API as backend, also laravel for certain app, MySQL for database, using agile development method, jira and gitlab as project management tool.
                                         </p>
                                        
@@ -282,8 +172,8 @@
                                        </li>
 
                                        <li class="ml-5 text-gray-800 mt-5">
-                                       <span class="text-gray-900 font-medium"> Soizee Web Platform </span>
-                                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                                       <span class="text-gray-900 font-medium 2xl:text-xl"> Soizee Web Platform </span>
+                                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 2xl:text-xl">
                                             Developed and maintain soizee.com ecosystem, including user, creator, using laravel and MySQL for database, using agile development method, jira and gitlab as project management tool.
                                         </p>
                                        
@@ -292,31 +182,105 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- left timeline -->
-                        <!-- <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                            <div class="order-1 w-5/12"></div>
-                            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                                <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
-                            </div>
-                            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-                                <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                </p>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="hire-me"
+        class="hero-header pt-24 min-h-screen flex justify-items-center place-items-center place-content-center">
+        <div class="div">
+            <div class="text-center p-10 bg-gray-900 bg-opacity-80 rounded-md">
+               
+                <p class="font-bold text-xl 2xl:text-3xl text-white rounded-md">Want to make me part of your team ?</p>
+                <p class="mt-5">Job Status : <span class="text-green-500 px-2 py-1 rounded-md bg-white font-semibold"> • Available</span>  </p>
+                
+                <div class="grid grid-cols-2 2xl:w-3/4 mx-auto gap-5 mt-10">
+                   <a href="mailto:hendrahaqq@gmail.com" class="px-4 py-3 bg-green-500 text-white font-bold hover:bg-white hover:text-green-500">Hire Me</a>
+                   <a href="" class="px-4 py-3 border-white border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
+                </div>
+            </div>
+            
         </div>
     </div>
 </template>
 
 <script>
     export default {
+        data() {
+            return {
+                interests: [
+                    {
+                        name: 'Coding',
+                        icon: 'laptop-code',
+                        type: 'fas'
+                    },
+                     {
+                        name: 'Movie',
+                        icon: 'film',
+                        type: 'fas'
+                    },
+                     {
+                        name: 'Football',
+                        icon: 'futbol',
+                        type: 'far'
+                    },
+                      {
+                        name: 'Music',
+                        icon: 'music',
+                        type: 'fas'
+                    },
+                      {
+                        name: 'Money',
+                        icon: 'money-bill-wave',
+                        type: 'fas'
+                    },
+                      {
+                        name: 'Travel',
+                        icon: 'plane',
+                        type: 'fas'
+                    },
+                      {
+                        name: 'Eat',
+                        icon: 'utensils',
+                        type: 'fas'
+                    },
+                      {
+                        name: 'Gaming',
+                        icon: 'gamepad',
+                        type: 'fas'
+                    },
 
+                ],
+                skills: [
+                    {
+                        name: 'HTML & CSS',
+                        percentage: '90%'
+                    },
+                       {
+                        name: 'Javascript',
+                        percentage: '80%'
+                    },
+                       {
+                        name: 'Vue.JS',
+                        percentage: '85%'
+                    },
+                       {
+                        name: 'PHP',
+                        percentage: '70%'
+                    },
+                       {
+                        name: 'Golang',
+                        percentage: '70%'
+                    },
+                       {
+                        name: 'UI & UX',
+                        percentage: '80%'
+                    }   
+                ]
+            }
+        }
     }
 </script>
 

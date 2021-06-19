@@ -19,9 +19,9 @@
         <a href="#skill" class="no-underline block mt-4 sm:inline-block sm:mt-0 font-medium hover:text-green-500 text-white mx-5" v-smooth-scroll>
           Experience
         </a>
-        <!-- <a href="#work" class="no-underline block mt-4 sm:inline-block sm:mt-0 font-medium hover:text-green-500 text-white mx-5" v-smooth-scroll>
-          Work
-        </a> -->
+        <a href="#hire-me" class="no-underline block mt-4 sm:inline-block sm:mt-0 font-medium hover:text-green-500 text-white mx-5" v-smooth-scroll>
+          Hire Me
+        </a>
       </div>
     </div>
   </nav>
