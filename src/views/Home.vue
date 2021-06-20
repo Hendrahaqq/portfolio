@@ -10,13 +10,13 @@
                 <p class="text-lg 2xl:text-2xl mt-1 text  font-source">Web Developer</p>
                 <!-- <p class="text-sm 2xl:text-xl mt-3">Job Status : <span class="px-2 bg-white rounded-md text-md text-gray-900"> Available</span> </p> -->
                 <div class="grid grid-cols-3 mt-10 w-3/4 mx-auto">
+                    <a href="https://github.com/Hendrahaqq" class="text-center icon-hero">
+                        <fa :icon="['fab', 'github']" class="text-4xl " />
+                        <p>Github</p>
+                    </a>
                     <a href="https://gitlab.com/hendrahaqq" class="text-center icon-hero">
                         <fa :icon="['fab', 'gitlab']" class="text-4xl " />
-                        <p>Git</p>
-                    </a>
-                    <a href="mailto:hendrahaqq@gmail.com" class="text-center icon-hero ">
-                        <fa icon="envelope-open-text" class="text-4xl" />
-                        <p>Email</p>
+                        <p>Gitlab</p>
                     </a>
                     <a href="https://www.linkedin.com/in/muhammad-hendra-nailul-haqq-9aa121104/" class="text-center icon-hero">
                         <fa :icon="['fab','linkedin-in']" class="text-4xl " />
