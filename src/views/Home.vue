@@ -162,7 +162,7 @@
                                     <li class="ml-5 text-gray-800 ">
                                        <span class="text-gray-900 font-medium 2xl:text-xl"> Sekolah Desain Web Platform </span>
                                         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 2xl:text-xl">
-                                            Developed and maintain sekolahdesain.id ecosystem as edutech company, including promotional, user, mentor, and administrator web app using Vue.JS with Typescript as front-end framework, Tailwind and Bootsrap as CSS framework, and Golang API as backend, also laravel for certain app, MySQL for database, using agile development method, jira and gitlab as project management tool.
+                                            Developed and maintain sekolahdesain.id ecosystem as edtech company, including promotional, user, mentor, and administrator web app using Vue.JS with Typescript as front-end framework, Tailwind and Bootsrap as CSS framework, and Golang API as backend, also laravel for certain app, MySQL for database, using agile development method, jira and gitlab as project management tool.
                                         </p>
                                        
                                        <p></p>
@@ -195,7 +195,7 @@
                 
                 <div class="md:grid md:grid-cols-2 2xl:w-3/4 mx-auto gap-5 mt-10">
                    <a href="mailto:hendrahaqq@gmail.com" class="px-4 py-3 block mt-2 bg-green-500 text-white font-bold hover:bg-white hover:text-green-500">Hire Me</a>
-                   <a href="/src/assets/Hendra_WebDev_CV.pdf" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
+                   <a href="/file/Hendra_WebDev_CV.pdf" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
                 </div>
             </div>
             
