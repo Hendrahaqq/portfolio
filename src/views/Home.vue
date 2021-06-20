@@ -43,10 +43,7 @@
                 <div class="text-center p-10 2xl:text-2xl">
                     <span class="text-green-500 font-medium">Hi, my name is Hendra,</span>
                     <span class="font-source">
-                        I am a passionate software developer and computer science graduate with a hands-on, high energy
-                        approach, well-developed skills in Agile methodology.
-                        Specializing in the web development arena. For the last years, I have been developing web using
-                        Javascript, Vue.Js and Golang.
+                        Iam a passionate web developer specializing in front end development and computer science graduate with a hands-on, high energy approach, well-developed skills in Agile methodology. Experienced with all stages of the development cycle for dynamic web projects. For the last years, I have been developing web using Javascript, Vue.Js and Golang.
 
                     </span>
                 </div>
@@ -123,7 +120,7 @@
         <div class="bg-gray-900 shadow-2xl p-3 md:p-10 md:w-3/4 mx-auto mt-5">
 
             <div class="border-4 border-white relative 2xl:p-20 min-h-screen">
-                <div class="bg-gray-900 flex items-center absolute -top-4 md:-top-7 left-2 md:right-2 p-1 md:p-2">
+                <div class="bg-gray-900 flex items-center absolute -top-4 md:-top-7 left-2 p-1 md:p-2">
                     <fa icon="cog" class="text-xl md:text-4xl mr-2" />
                     <span class="font-bold  text-green-500 text-sm md:text-lg 2xl:text-2xl"> Experience</span>
                 </div>
@@ -165,7 +162,7 @@
                                     <li class="ml-5 text-gray-800 ">
                                        <span class="text-gray-900 font-medium 2xl:text-xl"> Sekolah Desain Web Platform </span>
                                         <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100 2xl:text-xl">
-                                            Developed and maintain sekolahdesain.id ecosystem as edutech company, including promotional, user, mentor, and administrator web app using Vue.JS as front-end framework and Golang API as backend, also laravel for certain app, MySQL for database, using agile development method, jira and gitlab as project management tool.
+                                            Developed and maintain sekolahdesain.id ecosystem as edutech company, including promotional, user, mentor, and administrator web app using Vue.JS with Typescript as front-end framework, Tailwind and Bootsrap as CSS framework, and Golang API as backend, also laravel for certain app, MySQL for database, using agile development method, jira and gitlab as project management tool.
                                         </p>
                                        
                                        <p></p>
@@ -198,7 +195,7 @@
                 
                 <div class="md:grid md:grid-cols-2 2xl:w-3/4 mx-auto gap-5 mt-10">
                    <a href="mailto:hendrahaqq@gmail.com" class="px-4 py-3 block mt-2 bg-green-500 text-white font-bold hover:bg-white hover:text-green-500">Hire Me</a>
-                   <a href="" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
+                   <a href="/src/assets/Hendra_WebDev_CV.pdf" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
                 </div>
             </div>
             
