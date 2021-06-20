@@ -119,46 +119,46 @@
             </div>
         </div>
     </div>
-    <div id="skill" class="bg-gray-800 w-full p-10 ">
-        <div class="bg-gray-900 shadow-2xl p-10 md:w-3/4 mx-auto mt-5">
+    <div id="skill" class="bg-gray-800 w-full p-2 md:p-10 ">
+        <div class="bg-gray-900 shadow-2xl p-3 md:p-10 md:w-3/4 mx-auto mt-5">
 
             <div class="border-4 border-white relative 2xl:p-20 min-h-screen">
-                <div class="bg-gray-900 flex items-center absolute -top-7 right-2 p-2">
-                    <fa icon="cog" class="text-4xl mr-2" />
-                    <span class="font-bold  text-green-500 2xl:text-2xl"> Experience</span>
+                <div class="bg-gray-900 flex items-center absolute -top-4 md:-top-7 left-2 md:right-2 p-1 md:p-2">
+                    <fa icon="cog" class="text-xl md:text-4xl mr-2" />
+                    <span class="font-bold  text-green-500 text-sm md:text-lg 2xl:text-2xl"> Experience</span>
                 </div>
                 <div class="p-5">
-                    <div class="relative wrap overflow-hidden p-5 h-full">
-                        <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border line-timeline"
+                    <div class="relative wrap overflow-hidden p-2 md:p-5 h-full">
+                        <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border line-timeline hidden md:block"
                             ></div>
                         <!-- right timeline -->
-                        <div class="mb-8 flex items-center w-full right-timeline">
-                            <div class="order-1 w-1/12 text-xs text-center 2xl:text-lg">
+                        <div class="mb-8 md:flex items-center w-full right-timeline">
+                            <div class="order-1 md:w-1/12 text-md md:text-xs text-center 2xl:text-lg">
                             <p>Jan 2018 </p> 
                             <p>|</p>
                             <p>Feb 2018</p> 
                           
                             </div>
-                            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                            <div class="z-20 md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden ">
                                 <h1 class="mx-auto font-semibold text-lg text-white">O</h1>
                             </div>
-                            <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 w-10/12 px-6 py-4">
+                            <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 md:w-10/12 p-5 md:px-6 md:py-4 mt-2 md:mt-0">
                                 <p class=" font-bold text-gray-800 text-xl 2xl:text-2xl">Intern Software Developer</p>
                                 <p class="italic mb-3 2xl:text-xl">Skynosoft Portal Prime</p>
                                 <p class="text-sm 2xl:text-xl leading-snug tracking-wide text-gray-900 text-opacity-100">Developed a SMS Gateway and modified existing Administrator System for Patient registration at Amal Sehat Hospital using HTML/CSS, GAMMU, Javascript, PHP, CodeIgniter, and MySQL, also responsible from requirement gathering until User Acceptance Testing (UAT) and delivering final product.</p>
                             </div>
                         </div>
-                        <div class="mb-8 flex items-center w-full right-timeline">
-                            <div class="order-1 w-1/12 text-xs text-center 2xl:text-lg">
+                        <div class="mb-8 md:flex items-center w-full right-timeline">
+                            <div class="order-1 md:w-1/12 text-md md:text-xs text-center 2xl:text-lg">
                             <p>June 2020 </p> 
                             <p>|</p>
                             <p>Now</p> 
                           
                             </div>
-                            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                            <div class="z-20 md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden">
                                 <h1 class="mx-auto font-semibold text-lg text-white">O</h1>
                             </div>
-                            <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 w-10/12 px-6 py-4">
+                            <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 md:w-10/12 p-5 md:px-6 md:py-4 mt-2 md:mt-0">
                                 <p class=" font-bold text-gray-800 text-xl 2xl:text-2xl">Web Developer</p>
                                 <p class="italic mb-3 2xl:text-xl">PT. Solusi Desain Bangsa</p>
                                 <ul class="list-disc ">
@@ -196,9 +196,9 @@
                 <p class="font-bold text-xl 2xl:text-3xl text-white rounded-md">Want to make me part of your team ?</p>
                 <p class="mt-5">Job Status : <span class="text-green-500 px-2 py-1 rounded-md bg-white font-semibold"> • Available</span>  </p>
                 
-                <div class="grid grid-cols-2 2xl:w-3/4 mx-auto gap-5 mt-10">
-                   <a href="mailto:hendrahaqq@gmail.com" class="px-4 py-3 bg-green-500 text-white font-bold hover:bg-white hover:text-green-500">Hire Me</a>
-                   <a href="" class="px-4 py-3 border-white border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
+                <div class="md:grid md:grid-cols-2 2xl:w-3/4 mx-auto gap-5 mt-10">
+                   <a href="mailto:hendrahaqq@gmail.com" class="px-4 py-3 block mt-2 bg-green-500 text-white font-bold hover:bg-white hover:text-green-500">Hire Me</a>
+                   <a href="" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
                 </div>
             </div>
             

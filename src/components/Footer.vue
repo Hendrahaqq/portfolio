@@ -1,10 +1,10 @@
 <template>
   <div class="full px-4 py-10 bg-gray-900">
     <div class="md:grid md:grid-cols-2">
-      <div class="p-10">
+      <div class="p-10 order-2 md:order-1">
         <div class="flex items-center">
-        <img src="/src/assets/hh.png" class="md:w-7" alt="">
-        <p class="md:text-xl ml-2">Hendra Haqq Official Website</p>
+        <img src="/src/assets/hh.png" class="w-7" alt="">
+        <p class="text-sm md:text-xl ml-2">Hendra Haqq Official Website</p>
         
       </div>
       <p class="mt-5">Build With :</p>
@@ -24,7 +24,7 @@
       </div>
      
       </div>
-    <div class="p-10">
+    <div class="p-10 order-1 md:order-2">
       <p>Menu :</p>
        <div class="mt-5 grid grid-cols-2">
             <a href="#hero" v-smooth-scroll  class="mt-5 hover:text-green-500">Back to top</a>
