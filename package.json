@@ -18,6 +18,7 @@
         "postcss": "^8.3.4",
         "tailwindcss": "^2.1.4",
         "vue": "^3.0.5",
+        "vue-gtag": "^2.0.1",
         "vue-router": "4",
         "vue3-smooth-scroll": "^0.8.1",
         "vuex": "^4.0.1"
