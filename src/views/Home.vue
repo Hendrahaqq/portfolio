@@ -50,15 +50,15 @@
                 <div class="md:grid md:grid-cols-2 2xl:mt-5">
                     <div class="p-5">
                         <p class="font-bold text-xl 2xl:text-3xl font-source text-green-500">Detail :</p>
-                        <div class="text-sm grid grid-cols-7 md:grid-cols-5">
-                            <div class="col-span-2 md:col-span-1">
+                        <div class="text-sm grid grid-cols-7">
+                            <div class="col-span-2 ">
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Name :</p>
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Address :</p>
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">DOB :</p>
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Phone :</p>
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl text-green-500 font-bold">Email :</p>
                             </div>
-                            <div class="col-span-5 md:col-span-4">
+                            <div class="col-span-5 ">
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl">Muhammad Hendra Nailul Haqq</p>
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl">Solo, Indonesia</p>
                                 <p class="mt-5 text-xs md:text-md  2xl:text-xl">November 24, 1997</p>
@@ -211,7 +211,7 @@
                 
                 <div class="md:grid md:grid-cols-2 2xl:w-3/4 mx-auto gap-5 mt-10">
                    <a href="mailto:hendrahaqq@gmail.com" class="px-4 py-3 block mt-2 bg-green-500 text-white font-bold hover:bg-white hover:text-green-500">Hire Me</a>
-                   <a href="/file/Hendra_WebDev_CV.pdf" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
+                   <a target="_blank" href="/file/hendra_cv_webdev.pdf" class="px-4 py-3 border-white block mt-2 border-2 text-green-500 font-bold hover:border-green-500 hover:text-white">Download CV</a>
                 </div>
             </div>
             
