@@ -183,7 +183,7 @@
                             <div class="order-1 md:w-1/12 text-md md:text-xs text-center 2xl:text-lg">
                             <p>July 2021 </p> 
                             <p>|</p>
-                            <p>September 2022</p> 
+                            <p>Sept 2022</p> 
                           
                             </div>
                             <div class="z-20 md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden">
@@ -197,9 +197,9 @@
                         </div>
                         <div class="mb-8 md:flex items-center w-full right-timeline">
                             <div class="order-1 md:w-1/12 text-md md:text-xs text-center 2xl:text-lg">
-                            <p>September 2022 </p> 
-                            <p>|</p>
-                            <p>Now</p> 
+                                <p>Sept 2022 </p> 
+                                <p>|</p>
+                                <p>Now</p> 
                           
                             </div>
                             <div class="z-20 md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden">
