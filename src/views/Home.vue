@@ -183,7 +183,7 @@
                             <div class="order-1 md:w-1/12 text-md md:text-xs text-center 2xl:text-lg">
                             <p>July 2021 </p> 
                             <p>|</p>
-                            <p>Now</p> 
+                            <p>September 2022</p> 
                           
                             </div>
                             <div class="z-20 md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden">
@@ -192,6 +192,22 @@
                             <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 md:w-10/12 p-5 md:px-6 md:py-4 mt-2 md:mt-0">
                                 <p class=" font-bold text-gray-800 text-xl 2xl:text-2xl">Front End Developer</p>
                                 <p class="italic mb-3 2xl:text-xl">PT. Magnus Digital Indonesia</p>
+                                
+                            </div>
+                        </div>
+                        <div class="mb-8 md:flex items-center w-full right-timeline">
+                            <div class="order-1 md:w-1/12 text-md md:text-xs text-center 2xl:text-lg">
+                            <p>September 2022 </p> 
+                            <p>|</p>
+                            <p>Now</p> 
+                          
+                            </div>
+                            <div class="z-20 md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full hidden">
+                                <h1 class="mx-auto font-semibold text-lg text-white">O</h1>
+                            </div>
+                            <div class="order-1 bg-gray-400 rounded-lg shadow-xl ml-5 md:w-10/12 p-5 md:px-6 md:py-4 mt-2 md:mt-0">
+                                <p class=" font-bold text-gray-800 text-xl 2xl:text-2xl">Custom Software Engineering Sr. Analyst</p>
+                                <p class="italic mb-3 2xl:text-xl">PT. Accenture</p>
                                 
                             </div>
                         </div>
